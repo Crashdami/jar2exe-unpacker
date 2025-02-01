@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="dumper">
+    <output-path>$PROJECT_DIR$/out/artifacts/dumper</output-path>
+    <root id="archive" name="dumper.jar">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="module-output" name="JavaAgentDumper" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/jetbrains/kotlin/kotlin-stdlib/2.0.20/kotlin-stdlib-2.0.20.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/jetbrains/annotations/13.0/annotations-13.0.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
